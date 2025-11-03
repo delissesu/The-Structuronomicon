@@ -7,9 +7,12 @@ def sortSquared(arrayInput):
 
 sortSquare = sortSquared(random_array)
 
-for i in range(len(sortSquare)):
-    for j in range(len(sortSquare) - 1):
-        if sortSquare[j] > sortSquare[j + 1]:
-            sortSquare[j + 1], sortSquare[j] = sortSquare[j], sortSquare[j + 1]
+def sortIncrease(squaredArr):
+    for _ in range(len(squaredArr)):
+        for j in range(len(squaredArr) - 1):
+            if squaredArr[j] > squaredArr[j + 1]:
+                squaredArr[j + 1], squaredArr[j] = squaredArr[j], squaredArr[j + 1]
+    
+    return squaredArr
 
-print(*sortSquare)
+print(*sortIncrease(sortSquare))
