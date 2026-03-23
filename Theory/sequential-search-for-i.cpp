@@ -42,3 +42,29 @@ int main()
 
     return 0;
 }
+
+/*
+Kasus Uji 1:
+Input: 70
+Output: Found at index 6
+
+Kasus Uji 2:
+Input: 41
+Output: Found at index 19
+
+Kasus Uji 3:
+Input: 5006
+Output: Found at index 13
+
+Kasus Uji 4:
+Input: 999
+Output: Number not found
+
+Kasus Uji 5:
+Input: 10
+Output: Found at index 0
+
+Kasus Uji 6:
+Input: 331
+Output: Found at index 18
+*/
