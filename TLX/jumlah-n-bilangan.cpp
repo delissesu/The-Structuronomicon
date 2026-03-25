@@ -5,7 +5,7 @@ int main() {
     int N;
     cin >> N;
 
-    int jumlah = 0;
+    long long jumlah = 0;
 
     for (int i = 1; i <= N; i++) {
         int x;
